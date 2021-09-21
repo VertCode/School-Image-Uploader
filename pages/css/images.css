@@ -1,0 +1,50 @@
+html {
+    background-color: #2c2e32;
+}
+#body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2c2e32;
+    color: #ffffff;
+}
+
+.error {
+    color: #ff0034;
+}
+
+ul {
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    row-gap: 10px;
+}
+
+li {
+    size: auto;
+    flex: 0 50 33%;
+    margin-bottom: 20px;
+}
+
+img {
+    height: auto;
+    width: 30vh;
+    object-fit: cover;
+    vertical-align: bottom;
+    transition: all .2s ease-in-out;
+}
+img:hover {
+    transform: scale(5);
+}
+
+.image-container {
+    margin-left: 30vh;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}

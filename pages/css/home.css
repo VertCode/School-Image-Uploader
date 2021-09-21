@@ -1,0 +1,43 @@
+#body {
+    height: calc(100vh - 80px);
+    width: 100%;
+    background-color: #2c2e32;
+    color: #ffffff;
+}
+
+.about-me {
+    width: 100vh;
+    margin-left: 2vh;
+    margin-top: 2vh;
+    position: relative;
+    height: 15vh;
+    float: left;
+}
+
+ul {
+    float: left;
+    list-style: none;
+    padding: 0;
+}
+
+h2 {
+    position: absolute;
+    margin-left: 17vh;
+    margin-top: -13vh;
+}
+
+span {
+    position: absolute;
+    margin-left: 1vh;
+    color: #ffffff;
+    margin-top: 9vh;
+
+}
+
+.photo {
+    position: relative;
+    height: 15vh;
+    width: 15vh;
+    border-radius: 50%;
+    border: solid 0.5vh #202024;
+}

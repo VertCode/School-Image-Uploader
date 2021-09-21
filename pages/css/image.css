@@ -1,0 +1,29 @@
+
+#body {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2c2e32;
+}
+
+
+.image-container {
+    width: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image img {
+    width: 80vh;
+}
+.image #zoomed {
+    width: 150vh;
+}
+
+.image img:hover {
+    width: 82vh;
+
+}
